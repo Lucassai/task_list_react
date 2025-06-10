@@ -20,9 +20,10 @@ Aplicação de checklist desenvolvida com React e Vite que permite aos usuários
 
 ## 🚀 Como Executar
 
-Clone o repositório:
+### Clone o repositório:
 
 bash
+
 git clone https://github.com/Lucassai/task_list_react.git
 
 Instale as dependências:
