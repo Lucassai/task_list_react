@@ -1,4 +1,10 @@
+html,
+body {
+  background: linear-gradient(135deg, var(--purple-noise) 0%, var(--pink) 100%)
+    no-repeat fixed;
+}
+
 :root {
   --pink: #e62fa8;
-  --purple-noise: #5b168b;
+  --purple-noise: #2b87c4;
 }
