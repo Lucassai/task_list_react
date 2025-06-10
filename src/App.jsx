@@ -44,13 +44,24 @@ function App() {
     setTask(newTasks);
   }
 
+  function onAddTaskSubmit(title, description) {
+    const newTask = {
+      id: tasks.length + 1,
+      title: title,
+      description: description,
+      isCompleted: false,
+    };
+    setTask([...tasks, newTask]);
+  }
+
   return (
-    <div className="w-screen h-screen bg-slate-500 flex justify-center p-6">
+    <div className="w-screen h-screen flex justify-center p-6">
       <div className="w-[500px]">
-        <h1 className="text-3xl text-slate-100 font-bold text-center">
+        <h1 className="text-4xl text-white font-bold text-center">
           Gerenciador de tarefas
         </h1>
-        <AddTasks />
+        <AddTasks onAddTaskSubmit={onAddTaskSubmit} />
+
         <Tasks
           tasks={tasks}
           onTaskClick={onTaskClick}
