@@ -52,7 +52,16 @@ TailwildCSS
 
 ## 📂 Estrutura do Projeto
 
-text
+📁 src/
+├── 📂 components/
+│   ├── 📄 AddTasks.jsx
+│   └──  📄 Tasks.jsx
+├── 📂 styles/
+│   ├── 📄 App.css
+│   └── 📄 Main.css
+├── 📄 App.jsx
+└── 📄 main.jsx
+
 
 /src 
   /components 
