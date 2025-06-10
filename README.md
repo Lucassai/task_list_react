@@ -1,8 +1,11 @@
 # Checklist App - React/Vite
-📋 Descrição
+
+## 📋 Descrição
+
 Aplicação de checklist desenvolvida com React e Vite que permite aos usuários criar, gerenciar e acompanhar itens em listas de verificação personalizadas.
 
 ## ✨ Funcionalidades
+
 ✅ Adicionar novos itens ao checklist
 
 🗑️ Remover itens completados
