@@ -38,7 +38,9 @@ Acesse no navegador:
 
 text
 http://localhost:5173
-🛠️ Tecnologias Utilizadas
+
+
+## 🛠️ Tecnologias Utilizadas
 React 18
 
 Vite
